@@ -1,4 +1,4 @@
-from PIL import Image 
+from PIL import Image #pip install Pillow
 import urllib.request
 urllib.request.urlretrieve(
   'https://raw.githubusercontent.com/CheckPlease123/Surprise/main/bla.jpg',"th.png")
